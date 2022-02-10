@@ -1,4 +1,4 @@
-function [Ss,Sstep,Ssr]=Derelation(Ss,Sstep,Ssr,x)
+function [Ss,Sstep,Ssr]=Derelation(Ss,Sstep,Ssr,x)  %
         Ss(x,:)=0;   
         [temp,~]=find(Sstep==x);
         Tlen=sum(Sstep(temp,:)~=0);
