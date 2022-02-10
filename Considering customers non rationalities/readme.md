@@ -1,0 +1,1 @@
+Considering customers non rationalities
